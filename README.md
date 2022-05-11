@@ -9,3 +9,4 @@ This repository contains code examples of different design patterns. The code is
 
 ### Structural Design Pattern
 1. Adapter Pattern
+2. Composite Pattern
