@@ -11,3 +11,4 @@ This repository contains code examples of different design patterns. The code is
 1. Adapter Pattern
 2. Composite Pattern
 3. Decorator Pattern
+4. Facade Pattern
