@@ -16,3 +16,4 @@ This repository contains code examples of different design patterns. The code is
 ### Behavioral Design Pattern
 1. Mediator
 2. Command
+3. Chain of Responsibility
