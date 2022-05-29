@@ -12,3 +12,6 @@ This repository contains code examples of different design patterns. The code is
 2. Composite Pattern
 3. Decorator Pattern
 4. Facade Pattern
+
+### Behavioral Design Pattern
+1. Mediator
