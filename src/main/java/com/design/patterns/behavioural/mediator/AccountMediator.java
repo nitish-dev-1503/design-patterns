@@ -4,11 +4,24 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class AccountMediator {
-    private final Statement statement;
-    private final TransactionHistory transactionHistory;
+    private Account account;
+    private Statement statement;
+    private TransactionHistory transactionHistory;
 
-    public AccountMediator(Statement statement, TransactionHistory transactionHistory) {
+    public AccountMediator() {
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+        account.setAccountMediator(this);
+    }
+
+    public void setStatement(Statement statement) {
         this.statement = statement;
+        statement.setAccountMediator(this);
+    }
+
+    public void setTransactionHistory(TransactionHistory transactionHistory) {
         this.transactionHistory = transactionHistory;
     }
 

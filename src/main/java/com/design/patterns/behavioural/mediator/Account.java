@@ -4,11 +4,14 @@ public class Account {
     private final String name;
     private final Long accountNumber;
 
-    private final AccountMediator accountMediator;
+    private AccountMediator accountMediator;
 
-    public Account(String name, Long accountNumber, AccountMediator accountMediator) {
+    public Account(String name, Long accountNumber) {
         this.name = name;
         this.accountNumber = accountNumber;
+    }
+
+    public void setAccountMediator(AccountMediator accountMediator) {
         this.accountMediator = accountMediator;
     }
 
