@@ -1,4 +1,4 @@
-package com.design.patterns.behavioural.command;
+package com.design.patterns.behavioural.command.example1;
 
 import com.design.patterns.behavioural.mediator.AccountMediator;
 
