@@ -1,4 +1,4 @@
-package com.design.patterns.behavioural.chainofresponsibility;
+package com.design.patterns.behavioural.chainofresponsibility.example1;
 
 import java.math.BigDecimal;
 

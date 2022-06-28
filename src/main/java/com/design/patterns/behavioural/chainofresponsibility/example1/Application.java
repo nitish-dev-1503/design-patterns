@@ -1,9 +1,9 @@
-package com.design.patterns.behavioural.chainofresponsibility;
+package com.design.patterns.behavioural.chainofresponsibility.example1;
 
-import com.design.patterns.behavioural.chainofresponsibility.handlers.BaseEOCHandler;
-import com.design.patterns.behavioural.chainofresponsibility.handlers.FinanceChargeHandler;
-import com.design.patterns.behavioural.chainofresponsibility.handlers.LateFeeHandler;
-import com.design.patterns.behavioural.chainofresponsibility.handlers.MinimumPaymentHandler;
+import com.design.patterns.behavioural.chainofresponsibility.example1.handlers.BaseEOCHandler;
+import com.design.patterns.behavioural.chainofresponsibility.example1.handlers.FinanceChargeHandler;
+import com.design.patterns.behavioural.chainofresponsibility.example1.handlers.LateFeeHandler;
+import com.design.patterns.behavioural.chainofresponsibility.example1.handlers.MinimumPaymentHandler;
 
 public class Application {
     public static void main(String[] args) {

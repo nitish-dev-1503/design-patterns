@@ -1,6 +1,6 @@
-package com.design.patterns.behavioural.chainofresponsibility.handlers;
+package com.design.patterns.behavioural.chainofresponsibility.example1.handlers;
 
-import com.design.patterns.behavioural.chainofresponsibility.CycleRequest;
+import com.design.patterns.behavioural.chainofresponsibility.example1.CycleRequest;
 
 import static java.util.Objects.nonNull;
 
