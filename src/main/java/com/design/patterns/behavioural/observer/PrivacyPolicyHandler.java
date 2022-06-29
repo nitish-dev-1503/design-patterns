@@ -21,9 +21,12 @@ public class PrivacyPolicyHandler {
 
     public void updatePrivacyPolicy(String privacyPolicy) {
         this.privacyPolicy = privacyPolicy;
+        notifySubscribers(privacyPolicy);
+    }
+
+    private void notifySubscribers(String privacyPolicy) {
         for (User subscriber : subscribers) {
             subscriber.updatePrivacyPolicy(privacyPolicy);
         }
     }
-
 }
